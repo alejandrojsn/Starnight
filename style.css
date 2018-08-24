@@ -4,6 +4,9 @@
 
 .btn{
   border-radius:3px;
+}
+
+.my-btn{
   border:none;
   box-shadow:inset 0 1px 0 rgba(255, 255, 255, .2), 0 2px 2px rgba(0, 0, 0, .1);
 
@@ -21,13 +24,15 @@
   background:#7ececa !important;
 }
 
-.btn:focus, .btn:active, .btn:active:focus, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus{
+.my-btn:focus, .my-btn:active, .my-btn:active:focus, .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus{
   box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
     box-shadow: none;
 }
+
+/* ********** MAIN ********** */
 
 #main {
   background:url('./img/background.png') center/cover no-repeat;
@@ -79,4 +84,39 @@
   padding:12px 50px;
   margin-bottom:10px;
   margin:auto 0 50px;
+}
+
+/* ********** ABOUT ********** */
+
+#about{
+  height:100vh;
+  background:#e8b968;
+  background-image: url('./img/iPad.png');
+  background-repeat: no-repeat;
+  background-size:53vw auto;
+  background-position: 60vw 10vh;
+  padding:5% 0;
+  color:#ffffff;
+}
+
+#about h2{
+  font-weight: lighter;
+  font-size:41px;
+}
+
+#about p{
+  font-size:.75rem;
+  line-height:1.5rem;
+}
+
+#about #button{
+  font-size:14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding:10px 50px;
+  border:2px solid #ffffff;
+}
+
+#about #button:hover{
+  color: #e8b968;
 }
