@@ -83,7 +83,7 @@
 /* ********** ABOUT ********** */
 
 #about{
-  height:100vh;
+  min-height:100vh;
   background:#e8b968;
   background-image: url('./img/iPad.png');
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@
   color: #e8b968;
 }
 
-/* TESTIMONIALS */
+/* ********** TESTIMONIALS ********** */
 
 #testimonials{
   background:#5b6869;
@@ -162,7 +162,7 @@
   background-color:#ffffff;
 }
 
-/* FEATURES */
+/* ********** FEATURES ********** */
 
 #features {
   color:#9197a8;
@@ -176,7 +176,7 @@
   text-transform: uppercase;
   font-size:.8rem;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   margin:1rem 0;
 }
 
@@ -188,4 +188,72 @@
 
 #features #button{
   padding:12px 32px;
+}
+
+/* ********** FEATURES 2 ********** */
+
+#features2{
+  background-color: #f6f6f4;
+  color:#9197a8;
+  position:relative;
+}
+#features2 .card{
+  max-width:340px;
+  border:none;
+  border-radius:0;
+  box-shadow:0 3px 0 #eaeaea;
+}
+
+#features2 .row{
+  padding-bottom: 1rem;
+}
+
+#features2 .card .card-img-top{
+  border-radius:none;
+}
+
+#features2 .card .card-body{
+  padding:10% 15%;
+}
+
+#features2 .card .card-body .card-text{
+  font-size:.75rem;
+  font-style:italic;
+}
+
+#features2 .card .card-body .card-title{
+  text-transform: uppercase;
+  font-size:.8rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#features2 .slide-title{
+  font-weight: lighter;
+  font-size:2rem;
+}
+
+#features2 .slide-text{
+  font-size:.75rem;
+  letter-spacing:1px;
+}
+
+#features2 .carousel-controls{
+  height:60px;
+  width:60px;
+  position:absolute;
+  right:5%;
+  bottom:0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-controls .next, .carousel-controls .prev{
+  width:25px;
+  text-align:center;
+  text-decoration: none;
+  color:#959595;
+  display:inline-block;
+  line-height: 60px;
+
 }
